@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: greenyellow;
+  color: black;
+}
+.right{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: blue;
+  color: aliceblue;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+.App{
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.hh{
+  color: #64c4ed;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.App .item-todo{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 14px 0;
+  width: 500px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.App .item-todo .item-text{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.App input{
+  padding: 14px 32px 14px 16px;
+  border: none;
+  outline: none;
+  width: 400px;
+  font-size: 20px;
+  background: transparent;
+
+}
+
+.App button{
+  padding: 15px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}
+
+.App .item-todo .item-delete{
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 2px 5px;
+  border-radius: 7px;
+  position: relative;
+  left: -4px;
+  bottom: 5px;
+  border: 1px solid red;
+  color: red;
+  
+}
+
+.strike{
+  text-decoration: line-through;
+  color: chartreuse;
+}
+
+
+
+
